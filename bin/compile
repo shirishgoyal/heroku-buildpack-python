@@ -180,9 +180,20 @@ source $BIN_DIR/steps/gdal
 # Install dependencies with Pip.
 source $BIN_DIR/steps/pip-install
 
+# Install nodejs dependencies.
+source $BIN_DIR/steps/nodejs-install
+
+# Install dependencies with npm.
+source $BIN_DIR/steps/npm-install
+
+# Install bower globally.
+source $BIN_DIR/steps/bower-install
+
+# Install dependencies with bower.
+source $BIN_DIR/steps/bower-update
+
 # Django collectstatic support.
 sub-env $BIN_DIR/steps/collectstatic
-
 
 # ### Finalize
 #

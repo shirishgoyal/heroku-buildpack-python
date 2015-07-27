@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+/app/.heroku/python/bin/npm install -g bower
